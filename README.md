@@ -1,1 +1,1 @@
-# rsschool-cv
+https://1Molot.github.io/rsschool-cv/cv
