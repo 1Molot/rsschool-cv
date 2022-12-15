@@ -1,0 +1,129 @@
+body {
+    background-color: gray;
+}
+
+.wrapper {
+    max-width: 1024px;
+    min-width: 680px;
+    margin: -10px auto;
+    padding: 0 10px;
+    box-shadow: 0 0 30px lightgrey;
+}
+
+.header {
+    padding: 28px 0px 28px 0px;
+    margin: 0 -10px;
+    font-size: 25px;
+    background: rgba(26, 1, 1, 0.756);
+    color: #fff;
+}
+
+.nav li {
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+.summary {
+    padding-bottom: 10px;
+}
+
+
+.skills {
+    padding-bottom: 10px;
+}
+
+.code {
+    padding-bottom: 10px;
+}
+
+.self-education {
+    padding-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+}
+
+section {
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+.contacts {
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.contacts img {
+    border-radius: 70%;
+
+}
+
+.menu-list li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.menu-avatar {
+    text-align: center;
+
+}
+
+.menu-avatar2 {
+    padding-left: 300px;
+    margin-bottom: -150px;
+}
+
+.languages {
+    border-bottom: none;
+}
+
+.footer {
+    padding: 28px 0px 28px 0px;
+    margin: 0 -10px;
+    background: rgba(26, 1, 1, 0.756);
+    color: #fff;
+}
+
+.footer__contacts {
+    width: auto;
+}
+
+.contact {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+li a {
+    color:rgba(249, 245, 245, 0.756);
+
+}
