@@ -5,20 +5,41 @@ body {
 .wrapper {
     max-width: 1024px;
     min-width: 680px;
-    margin: 0 auto;
-    padding: 10px;
+    margin: -10px auto;
+    padding: 0 10px;
     box-shadow: 0 0 30px lightgrey;
 }
 
-header {
+.header {
+    padding: 28px 0px 28px 0px;
+    margin: 0 -10px;
     font-size: 25px;
+    background: rgba(26, 1, 1, 0.756);
+    color: #fff;
 }
 
 .nav li {
     margin-left: 20px;
     display: inline-flex;
-
 }
+
+.summary {
+    padding-bottom: 10px;
+}
+
+
+.skills {
+    padding-bottom: 10px;
+}
+
+.code {
+    padding-bottom: 10px;
+}
+
+.self-education {
+    padding-bottom: 10px;
+}
+
 
 .container {
     display: flex;
@@ -52,14 +73,12 @@ h2 {
 
 section {
     border-bottom: 1px solid black;
-
-    margin: 10;
+    margin: 10px;
 }
 
 .contacts {
-    /* display: flex; */
-    /* justify-content: space-between; */
     padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 .contacts img {
@@ -67,6 +86,44 @@ section {
 
 }
 
+.menu-list li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .menu-avatar {
     text-align: center;
+
+}
+
+.menu-avatar2 {
+    padding-left: 300px;
+    margin-bottom: -150px;
+}
+
+.languages {
+    border-bottom: none;
+}
+
+.footer {
+    padding: 28px 0px 28px 0px;
+    margin: 0 -10px;
+    background: rgba(26, 1, 1, 0.756);
+    color: #fff;
+}
+
+.footer__contacts {
+    width: auto;
+}
+
+.contact {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+li a {
+    color:rgba(249, 245, 245, 0.756);
+
 }
